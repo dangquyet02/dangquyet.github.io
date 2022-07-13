@@ -1,248 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Band</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="customs.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <div id="main">
-        <div id="header">
-            <ul id="nav">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tout</a></li>
-                <li><a href="#contac">Contac</a></li>
-                <li>
-                    <a href="#">
-                        More
-                        <i class="ti-angle-down"></i>
-                    </a>
-                    <ul class="subnav">
-                        <li><a href="#">Merchandis</a></li>
-                        <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="search-btn">
-                <i class="search-icon ti-search"></i>
+
+    <div id="web">
+        <header>
+
+            <!-- logo -->
+            <div class="logo">
+                <a href="">
+                    <img src="assets/logo.png" alt="">
+                </a>
             </div>
-            <div id="mobile-menu" class="mobile-menu-btn">
-                <i class="menu-icon ti-menu"></i>
-            </div>
-        </div>
 
-        <div id="slider">
-            <div class="text-conten text-123">
-                <h2 class="text-heading text-mobile">New York</h2>
-                <div class="text-description text-mb"> The atmonso in new york is lorem ipsun</div>
-            </div>
-        </div>
-        
-        
+            <!-- actions : search , avatar -->
+            <div class="actions">
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="Nội dung tìm kiếm">
+                        <input type="submit" value="Tìm kiếm">
+                    </form>
 
-        <div id="content">
-            <div id="band" class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
-                <p class="section-sub-heading">We Love Music</p>
-                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="row member-list">
-                    <div class="col col-3 s-col-full mt-32 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-
-                    <div class="col col-3 s-col-full mt-32 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-
-                    <div class="col col-3 s-col-full mt-32 text-center">
-                        <p class="member-name">Name</p>
-                        <img src="./assets/img/bandmember.jpg" alt="Name" class="member-img">
-                    </div>
-                    
+                </div>
+                <div class="avatar">
+                    <img src="assets/main_avatar.png" alt="">
                 </div>
             </div>
-            <div id="tour" class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+        </header>
 
-                    <ul class="stickets-list">
-                        <li>September <span class="sold-out">Sold-out</span></li>
-                        <li>October <span class="sold-out">Sold-out</span></li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
-
-                    <div class="row place-list">
-                        <div class="col col-3 s-col-full mt-16">
-                            <img src="./assets/img/anh1.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn s-full-width js-buy-stiket">Buy Sticker</button>
-                            </div>
-                        </div>
-                        <div class="col col-3 s-col-full mt-16">
-                            <img src="./assets/img/anh2.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn s-full-width js-buy-stiket">Buy Sticker</button>
-                            </div>
-                        </div>
-                        <div class="col col-3 s-col-full mt-16">
-                            <img src="./assets/img/anh3.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <p class="place-time">Fri 27 Nov 2016</p>
-                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn s-full-width js-buy-stiket">Buy Sticker</button>
-                            </div>
-                        </div>
-                        
+        <div id="wrapper-content">
+            <section class="left-side">
+                <div class="info">
+                    <!-- avatar -->
+                    <div class="avatar">
+                        <img src="assets/main_avatar.png" alt="">
+                    </div>
+                    <!-- name  -->
+                    <div class="name">
+                        <p>Dương Hoàng Quân</p>
                     </div>
                 </div>
-            </div>
-            <!-- Begin: Contact section -->
-            <div id="contac" class="content-section">
-                <h2 class="section-heading">CONTACT</h2>
-                <p class="section-sub-heading">Fan? Drop a note!</p>
-                <div class="row contact-content">
-                    <div class="col col-half s-col-full contact-info">
-                        <p><i class="ti-location-pin"></i>Chicago, US</p>
-                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+00 151515"> +00 151515</a></p>
-                        <p><i class="ti-email"></i> Email: <a href="mailto:mail@mail.com"> mail@mail.com</a></p>
-                    </div>
-                    <div class="col col-half s-col-full contac-form">
-                        <form action="">
-                            <div class="row">
-                                <div class="col col-half s-col-full s-mt-8">
-                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
-                                </div>
-                                <div class="col col-half s-col-full s-mt-8">
-                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
-                                </div>
-                            </div>
-                            <div class="row mt-8">
-                                <div class="col col-full">
-                                    <input type="text" name="" placeholder="Message" id="" class="form-control">
-                                </div>
-                            </div>
-                            <input class="btn pull-right mt-16 s-full-width" type="submit" value="SEND">
-                        </form>
+                <ul class="menu">
+                    <li class="item">
+                        <div class="icon">
+                            <img src="assets/home_icon.png" alt="">
+                        </div>
+                        <a href="#">Trang Chủ</a>
+                    </li>
 
-                    </div>
+                    <li class="item">
+                        <div class="icon">
+                            <img src="assets/member_icon.png" alt="">
+                        </div>
+                        <a href="#">Thành Viên</a>
+                    </li>
+
+                    <li class="item">
+                        <div class="icon">
+                            <img src="assets/photo_icon.png" alt="">
+                        </div>
+                        <a href="#">Hình Ảnh</a>
+                    </li>
+
+                    <li class="item">
+                        <div class="icon">
+                            <img src="assets/news_icon.png" alt="">
+                        </div>
+                        <a href="#">Tin Tức</a>
+                    </li>
+
+                    <li class="item">
+                        <div class="icon">
+                            <img src="assets/setting_icon.png" alt="">
+                        </div>
+                        <a href="#">Cài Đặt</a>
+                    </li>
+
+                </ul>
+
+                <div class="ads">
+                    <h3 class="title">Quảng Cáo</h3>
+                    <img src="assets/ads_img.png" alt="">
                 </div>
-            </div>
-            <!-- End: Contact section -->
-        </div>
-        <div class="map-section">
-            <img src="./assets/img/map.jpg" alt="Map">
-        </div>
+            </section>
+            <section class="content">
+                <!-- list story -->
+                <ul class="stories">
+                    <li class="item">
+                        <div class="photo">
+                            <img src="assets/story_1.png" alt="">
+                        </div>
+                        <div class="add">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <p>Add histories</p>
+                    </li>
+                    <li class="item">
+                        <div class="photo">
+                            <img src="assets/story_2.png" alt="">
+                        </div>
 
-        <div id="footer">
-            <div class="social-list">
-                <a href=""><i class="ti-facebook"></i></a>
-                <a href=""><i class="ti-instagram"></i></a>
-                <a href=""><i class="ti-youtube"></i></a>
-                <a href=""><i class="ti-pinterest"></i></a>
-                <a href=""><i class="ti-twitter"></i></a>
-                <a href=""><i class="ti-linkedin"></i></a>
-            </div>
-            <p class="copyrigrt">Powered by <a href="">w3.css</a></p>
+                        <p>Huy Nhật</p>
+                    </li>
+                    <li class="item">
+                        <div class="photo">
+                            <img src="assets/story_3.png" alt="">
+                        </div>
+
+                        <p>Thái Vũ</p>
+                    </li>
+                    <li class="item">
+                        <div class="photo">
+                            <img src="assets/story_4.png" alt="">
+                        </div>
+
+                        <p>Dương Tu</p>
+                    </li>
+                    <li class="item">
+                        <div class="photo">
+                            <img src="assets/story_5.png" alt="">
+                        </div>
+
+                        <p>Đặng Yến</p>
+                    </li>
+                </ul>
+                <!-- create post -->
+                <div class="create-post">
+                    <form action="">
+                        <input type="text" placeholder="Viết tâm trạng của bạn vào đây">
+                        <input type="submit" value="Post now">
+                    </form>
+                </div>
+                <!-- list posts -->
+
+                <ul class="posts">
+                    <li class="item">
+                        <div class="info">
+                            <div class="left">
+                                <div class="avatar">
+                                    <img src="assets/user_avatar_2.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>Trần Tuấn</p>
+                                    <small>12/2/2022</small>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="more">
+                                    <img src="assets/more_icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-post">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                voluptatem laborum maiores accusantium omnis ea itaque deserunt unde quam porro? </p>
+
+                            <div class="thumb">
+                                <img src="assets/post_img_1.png" alt="">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="info">
+                            <div class="left">
+                                <div class="avatar">
+                                    <img src="assets/user_avatar_3.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>Johny Dang</p>
+                                    <small>12/2/2022</small>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="more">
+                                    <img src="assets/more_icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-post">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                voluptatem laborum maiores accusantium omnis ea itaque deserunt unde quam porro? </p>
+
+                            <div class="thumb">
+                                <img src="assets/post_img_2.png" alt="">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="item">
+                        <div class="info">
+                            <div class="left">
+                                <div class="avatar">
+                                    <img src="assets/user_avatar_1.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>Thủy Nguyễn</p>
+                                    <small>12/2/2022</small>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="more">
+                                    <img src="assets/more_icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-post">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                voluptatem laborum maiores accusantium omnis ea itaque deserunt unde quam porro? </p>
+
+                            <div class="thumb">
+                                <img src="assets/post_img_3.png" alt="">
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </section>
+            <section class="right-side">
+
+                <div class="friends">
+                    <h3 class="title">DANH SÁCH BẠN BÈ</h3>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_1.png" alt="">
+                        </div>
+                        <div class="name">Thuỳ Trâm</div>
+                    </div>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_5.png" alt="">
+                        </div>
+                        <div class="name">Hoài Ân</div>
+                    </div>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_1.png" alt="">
+                        </div>
+                        <div class="name">Thuỳ Trâm</div>
+                    </div>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_4.png" alt="">
+                        </div>
+                        <div class="name">Bích Trần</div>
+                    </div>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_1.png" alt="">
+                        </div>
+                        <div class="name">Thuỳ Trâm</div>
+                    </div>
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_3.png" alt="">
+                        </div>
+                        <div class="name">Khánh Thị</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="avatar">
+                            <img src="assets/user_avatar_2.png" alt="">
+                        </div>
+                        <div class="name">Dương Trần</div>
+                    </div>
+
+
+                </div>
+            </section>
         </div>
     </div>
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="modal-heading-icon ti-close"></i>
-            </div>
-            <header class="modal-header">
-                <i class="ti-bag"></i>
-                Tickets
-            </header>
-
-            <div class="modal-body">
-                <label for="tiket-quantity" class="modal-label">
-                    <i class="ti-shopping-cart"></i>
-                    Tickets, $15 per person
-                </label>
-                <input id="tiket-quantity" type="text" class="modal-input" placeholder="How many?">
-                <label for="tiket-email" class="modal-label">
-                    <i class="ti-user"></i>
-                    Send to
-                </label>
-                <input id="tiket-email" type="text" class="modal-input" placeholder="Enter email...">
-                <button id="bye-tickets">
-                    Pay <i class="ti-check"></i>
-                </button>
-            </div>
-            <footer class="modal-footer">
-                <p class="modal-help">Need<a href=""> help?</a></p>
-            </footer>
-        </div>
-    </div>
-    <script>
-        const buyBtns = document.querySelectorAll('.js-buy-stiket')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer =document.querySelector('.js-modal-container')
-        const modalClose = document.querySelector('.js-modal-close')
-        
-        function showBuyTicket() {
-            modal.classList.add('modal-open')
-        }
-
-        for(const buyBtn of buyBtns){
-            buyBtn.addEventListener('click',showBuyTicket)
-        }
-
-        function hideBuyTicket() {
-            modal.classList.remove('modal-open')
-        }
-        modalClose.addEventListener('click',hideBuyTicket)
-        modal.addEventListener('click',hideBuyTicket)
-
-        modalContainer.addEventListener('click', function (event){
-            event.stopPropagation()
-        })
-    </script>
-    <script>
-        // Đóng mở mobile menu
-        var header=document.getElementById ('header');
-        var mobileMenu=document.getElementById('mobile-menu');
-        var headerHeight=header.clientHeight;
-        mobileMenu.onclick=function(){
-            var isClosed=header.clientHeight === headerHeight;
-                if (isClosed){
-                header.style.height='auto';
-                }else{
-                header.style.height=null; 
-            }
-        }
-        //tư đông đóng khi mở menu
-        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-        for(var i= 0 ; i < menuItems.length;i++){
-            var menuItem = menuItems[i] ;
-            menuItem.onclick = function(event){
-                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
-                if(isParentMenu){
-                    event.preventDefault();
-                }else{
-                    header.style.height=null;
-                }
-            }
-        }
-    </script>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
